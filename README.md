@@ -1,4 +1,4 @@
-# Noteit - Note-Taking-App
+# NoteIt - Note-Taking-App
 
 ![Design preview for the Note App](Preview.PNG)
 
