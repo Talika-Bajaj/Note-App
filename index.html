@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="android-chrome-192x192.png" type="image/x-icon">
+    <title>NoteIt - Note Taking App</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <p>NoteIt</p>
+      <a href="#tasks" id="open-notes" >Your Notes</a>
+    </nav>
+  </header>
+  <main>
+
+    <!-- main container  -->
+    <div class="box">
+        <div class="content">
+            <h2>Add a Note</h2>
+            <div class="input">
+              <textarea id="note" placeholder="What's on Your Mind ?" onkeydown="enableButton()" rows="4" cols="40"></textarea>
+              <p id="msg"><em>Please enter a note</em></p>
+            </div>
+            <button id="btn">Save</button>
+        </div>
+     
+        <!-- task container  -->
+        <div id="tasks">
+          
+        </div>
+      </div>
+      
+    </main>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

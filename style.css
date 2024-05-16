@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+header {
+  background-color: #5A464C;
+  color: #FFFACC;
+  padding: 25px 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav p {
+  font-size: 26px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#open-notes {
+  color: #FFFACC;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+/* main container */
+main {
+  width: 85vw;
+  margin: auto;
+}
+
+/* box container  */
+.box {
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 40px 0;
+  gap: 40px;
+  margin: auto;
+}
+
+.content {
+  width: 100%;
+  background-color: #d3e2d2;
+  padding: 25px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 25px;
+  flex-direction: column;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(68, 102, 119, 0.4666666667);
+}
+
+.input {
+  width: 100%;
+}
+
+#note {
+  width: 100%;
+  outline: none;
+  resize: none;
+  padding: 15px;
+  border-radius: 12px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #777;
+  font-size: 17px;
+  font-family: monospace;
+}
+
+#msg {
+  display: none;
+  color: tomato;
+  font-weight: 500;
+}
+
+#btn {
+  font-size: 16.5px;
+  padding: 9px 20px;
+  background-color: darkcyan;
+  color: white;
+  /* outline: none; */
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 7px;
+  border-style: none;
+}
+
+#btn:hover {
+  background-color: #017272;
+}
+
+/* tasks container  */
+#tasks {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 100%;
+}
+
+.note {
+  width: 85%;
+  height: 190px;
+  line-height: 1.35;
+  padding: 18px 20px 15px;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgray;
+  font-size: 15.5px;
+  font-family: "Inter", sans-serif !important;
+}
+
+.para {
+  font-family: "Inter", sans-serif !important;
+  height: 70%;
+  margin-bottom: 8px;
+  overflow: auto;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.edit {
+  margin-left: 9px;
+  font-size: 18px;
+  padding: 12px 8.5px;
+  background-color: #0d6efd;
+  color: white;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  transform: rotate(90deg);
+  border-radius: 7px;
+  border-style: none;
+}
+
+.edit:hover {
+  background-color: #0b5ed7;
+}
+
+.del {
+  padding: 7px 11px;
+  background-color: #dc3545;
+  color: white;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 7px;
+  border-style: none;
+  font-size: 16px;
+  font-family: "Inter", sans-serif !important;
+}
+
+.del:hover {
+  background-color: #bb2d3b;
+}/*# sourceMappingURL=style.css.map */

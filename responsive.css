@@ -1,0 +1,78 @@
+@media screen and (min-width: 450px) {
+    header {
+        padding: 20px 40px;
+    }
+
+    nav p {
+        font-size: 28px;
+    }
+
+    #open-notes {
+        font-size: 23px;
+    }
+
+    #note {
+        width: 80%;
+    }
+
+    .content {
+        padding: 45px 35px;
+    }
+
+    .note {
+        width: 16rem;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 675px) {
+    .content {
+        gap: 35px;
+        /* width: 90%; */
+    }
+
+    #note {
+        padding: 20px;
+        width: 80%;
+    }
+
+    #tasks {
+        grid-template-columns: 0.5fr 0.5fr;
+        gap: 65px;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    main {
+        width: 80vw;
+    }
+
+    .box {
+        gap: 45px;
+    }
+
+    /* #note {
+        width: 70%;
+    } */
+}
+
+@media screen and (min-width: 1060px) {
+    #tasks {
+        grid-template-columns: 0.5fr 0.5fr 0.5fr;
+        gap: 32px;
+    }
+    main {
+        width: 1000px;
+    }
+
+}
+
+/* @media screen and (min-width: 1060px) {
+    main {
+        width: 1000px;
+    }
+
+    #tasks {
+        gap: 32px;
+    }
+} */
