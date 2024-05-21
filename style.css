@@ -111,6 +111,11 @@ main {
   grid-template-columns: 100%;
 }
 
+.empty {
+  font-weight: 500;
+  font-family: "Inter", sans-serif !important;
+}
+
 .note {
   width: 85%;
   height: 190px;

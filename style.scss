@@ -46,6 +46,7 @@ nav {
             size: 26px;
             weight: 700;
         }
+
         cursor: pointer;
     }
 }
@@ -53,6 +54,7 @@ nav {
 #open-notes {
     color: $colorHeader;
     text-decoration: none;
+
     font: {
         size: 23px;
         weight: 700;
@@ -83,6 +85,7 @@ main {
     justify-content: center;
     gap: 25px;
     flex-direction: column;
+
     border: {
         radius: 15px;
         width: 2px;
@@ -100,12 +103,14 @@ main {
     outline: none;
     resize: none;
     padding: 15px;
+
     border: {
         radius: 12px;
         width: 2px;
         style: solid;
         color: #777;
     }
+
     font: {
         size: 17px;
         family: monospace;
@@ -126,6 +131,7 @@ main {
     /* outline: none; */
     transition: 0.3s ease-in-out;
     cursor: pointer;
+
     border: {
         radius: 7px;
         style: none;
@@ -143,6 +149,11 @@ main {
     grid-template-columns: 100%;
 }
 
+.empty {
+    font-weight: 500;
+    font-family: "Inter", sans-serif !important;
+}
+
 // notes
 .note {
     width: 85%;
@@ -151,12 +162,14 @@ main {
     padding: 18px 20px 15px;
     background-color: $bgNote;
     margin: auto;
+
     border: {
         radius: 8px;
         width: 1px;
         style: solid;
         color: $boderNote;
     }
+
     font: {
         size: 15.5px;
         family: $fontNote !important;
@@ -185,6 +198,7 @@ main {
     transition: 0.3s ease-in-out;
     cursor: pointer;
     transform: rotate(90deg);
+
     border: {
         radius: 7px;
         style: none;
@@ -201,10 +215,12 @@ main {
     color: white;
     transition: 0.3s ease-in-out;
     cursor: pointer;
+
     border: {
         radius: 7px;
         style: none;
     }
+
     font: {
         size: 16px;
         family: $fontNote !important;
