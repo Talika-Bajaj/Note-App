@@ -77,6 +77,9 @@ function deleteNote(index) {
 }
 
 function editNote(index) {
-  note.value = notes[index];
+  let editVal = Object.values(notes[index]);
+  note.value = editVal[0] ;
+  // console.log(editVal[0])
+  // console.log(Object.values(notes[index]));
   deleteNote(index);
 }
