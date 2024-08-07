@@ -24,6 +24,10 @@ $boderNote: lightgray;
     font-family: $fontMain;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-color: $bgBody;
 }

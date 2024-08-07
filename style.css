@@ -50,7 +50,7 @@ main {
   display: grid;
   grid-template-columns: 100%;
   padding: 40px 0;
-  gap: 35px;
+  gap: 40px;
   margin: auto;
 }
 
@@ -113,7 +113,6 @@ main {
   display: grid;
   gap: 32px;
   grid-template-columns: 100%;
-  margin-top: 5px;
 }
 
 .empty {
